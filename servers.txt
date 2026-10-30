@@ -1,0 +1,10 @@
+# Lista de servidores para uso com BIOSWHISPER-Batch.PS1
+# Um nome de computador por linha
+# Linhas começando com # são comentários
+
+# Exemplo:
+# server01.domain.local
+# server02.domain.local
+# workstation01.domain.local
+
+# Adicione seus computadores aqui:

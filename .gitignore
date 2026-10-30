@@ -1,0 +1,31 @@
+# Backups de UEFI (contêm dados sensíveis do sistema)
+*.uefi
+UEFI_Backup_*.uefi
+
+# Relatórios JSON (podem conter informações sensíveis)
+UEFI_Report_*.json
+
+# Logs do PowerShell
+*.log
+
+# Arquivos temporários do Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Arquivos temporários do PowerShell
+*.ps1xml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup do script
+BIOSWHISPER.PS1.bak
+BIOSWHISPER.PS1.old

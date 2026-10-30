@@ -1,0 +1,70 @@
+{
+  "BIOSWHISPER": {
+    "Version": "1.0.0",
+    "Config": {
+      "DefaultBackupPath": ".\\Backups",
+      "DefaultReportPath": ".\\Reports",
+      "AutoCreateDirectories": true,
+      "BackupRetentionDays": 30,
+      "MaxBackupFiles": 10
+    },
+    "Security": {
+      "RequireConfirmation": true,
+      "AllowWriteOperations": true,
+      "LogAllOperations": false,
+      "RequireAdminWarning": true
+    },
+    "KnownGUIDs": {
+      "Global": "{8BE4DF61-93CA-11D2-AA0D-00E098032B8C}",
+      "Dell": "{7214CBE2-06A8-4B3E-9A2F-5A2F5E2A7B3C}",
+      "Lenovo": "{F9D6E3A2-4B3C-9A2F-5A2F5E2A7B3C}",
+      "HP": "{8F8D4B3C-4B3C-9A2F-5A2F5E2A7B3C}",
+      "ASUS": "{E7B5C3A2-4B3C-9A2F-5A2F5E2A7B3C}",
+      "MSI": "{C8D6E3A2-4B3C-9A2F-5A2F5E2A7B3C}",
+      "Gigabyte": "{D9E7F4A3-4B3C-9A2F-5A2F5E2A7B3C}",
+      "Intel": "{EA8F5B4C-4B3C-9A2F-5A2F5E2A7B3C}",
+      "AMD": "{FB9G6C5D-4B3C-9A2F-5A2F5E2A7B3C}",
+      "SecureBoot": "{77FA9ABD-0359-4D32-BD60-28F4E78F784B}"
+    },
+    "ManufacturerVariables": {
+      "Dell": [
+        "DellSetup",
+        "Password",
+        "AdminPassword"
+      ],
+      "Lenovo": [
+        "L",
+        "Setup",
+        "Password"
+      ],
+      "HP": [
+        "HpSetup",
+        "Setup",
+        "Password"
+      ],
+      "ASUS": [
+        "AsusSetup",
+        "Setup"
+      ],
+      "MSI": [
+        "Setup",
+        "Overclock"
+      ],
+      "Gigabyte": [
+        "Setup",
+        "Overclock"
+      ]
+    },
+    "BootVariables": {
+      "MaxBootEntries": 20,
+      "DefaultTimeout": 5,
+      "BootEntryPrefix": "Boot"
+    },
+    "Logging": {
+      "EnableLogging": false,
+      "LogPath": ".\\Logs",
+      "LogLevel": "Info",
+      "MaxLogFiles": 5
+    }
+  }
+}
